@@ -81,7 +81,7 @@ export async function pedirNombreArtista() {
   //let ids = '11wRdbnoYqRddKBrpHt4Ue%22bE4uQ6baNwSHPVcDxLCe%3WrFJ7ztbogyGnTHbHJFl2%7bu3H8JO7d0UbMoVzbo70s%762310PdDnwsDxAQxzQkfX'
   const url = "https://accounts.spotify.com/api/token";
   const urlDatos =
-    "https://api.spotify.com/v1/artists?ids=2DaxqgrOhkeH0fpeiQq2f4,11wRdbnoYqRddKBrpHt4Ue,22bE4uQ6baNwSHPVcDxLCe,3WrFJ7ztbogyGnTHbHJFl2,5ZNxiPcbKgaNcBrERMpqeu,7bu3H8JO7d0UbMoVzbo70s,762310PdDnwsDxAQxzQkfX";
+    "https://api.spotify.com/v1/artists?ids=2DaxqgrOhkeH0fpeiQq2f4,11wRdbnoYqRddKBrpHt4Ue,22bE4uQ6baNwSHPVcDxLCe,3WrFJ7ztbogyGnTHbHJFl2,7bu3H8JO7d0UbMoVzbo70s,762310PdDnwsDxAQxzQkfX";
   const grant_type = "client_credentials";
   const client_id = "179a0c8c73e2420abb7327af96814fd6";
   const client_secret = "9a1383b9d3834042a5dc466ab5362f82";
