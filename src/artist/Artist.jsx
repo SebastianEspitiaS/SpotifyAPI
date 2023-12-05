@@ -10,7 +10,7 @@ import { useParams } from 'react-router-dom'
 
 export function Artist() {
 
-    const parametros = useParams()
+    const { id } = useParams()
 
     // crear un fetch para llamar la api con el nombre del artista
     const [datos, setDatos] = useState(null)
@@ -19,8 +19,7 @@ export function Artist() {
     
 
     useEffect(function () {
-        
-        pedirDatosArtistas(parametros)
+        pedirDatosArtistas(id)
             .then(function (respuesta) {
                 console.log(respuesta)
                 setDatos(respuesta)
@@ -29,7 +28,7 @@ export function Artist() {
             .catch(function (respuestaError) {
                 console.log(respuestaError);
             })
-    }, [])
+    }, [id])
 
     console.log(carga)
 
