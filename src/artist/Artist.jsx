@@ -15,8 +15,8 @@ export function Artist() {
     // crear un fetch para llamar la api con el nombre del artista
     const [datos, setDatos] = useState(null)
     const [carga, setCarga] = useState(true)
-    
-    
+
+
 
     useEffect(function () {
         pedirDatosArtistas(id)
