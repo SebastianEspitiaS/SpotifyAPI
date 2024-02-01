@@ -1,7 +1,4 @@
 // import React from 'react'
-import { Menu } from '../Menu/Menu'
-import './Home.css'
-import React from 'react';
 import { Menu } from '../Menu/Menu';
 import './Home.css';
 
@@ -76,9 +73,14 @@ const Home = () => {
   ];
 
   return (
+    
+
+    
+
+
     <div className='home'>
       <Menu />
-      <h1>Bienvenido a Spotifake</h1>
+      <h1 id='title-main'>Bienvenido a Spotifake</h1>
       
       <div className="music-cards">
         {musicData.map((music) => (

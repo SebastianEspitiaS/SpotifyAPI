@@ -4,6 +4,10 @@
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.container-music{
+    background-color: #121212;
+}
+
 .col{
     margin-bottom: 2.5vw;
 }
