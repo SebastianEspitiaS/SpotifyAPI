@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     background-color: black;
-    border: red solid;
     height: 100vh;
 }
 
@@ -27,5 +26,5 @@
 }
 
 .container-music {
-    margin-top: 7vw;
+    margin-top: 15vw;
 }
