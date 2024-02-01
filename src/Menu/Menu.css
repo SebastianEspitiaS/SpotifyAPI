@@ -1,4 +1,51 @@
-.colormenu{
-    background-color: transparent;
-    text-shadow: 1px 1px 1px black;
+.colormenu {
+  background-color: transparent;
+  text-shadow: 1px 1px 1px black;
+}
+
+.navbar {
+  background-color: #000000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #28a745;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+.navbar-dark .d-flex input,
+.navbar-dark .d-flex button {
+  border-color: #28a745;
+}
+
+.navbar-dark .d-flex input::placeholder {
+  color: #6c757d;
+}
+
+.btn-outline {
+  color: #ffffff;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.btn-outline:hover {
+  color: #ffffff;
+}
+
+.btn-outline-success {
+  color: #ffffff;
+  background-color: #28a745;
+  border-color: #28a745;
+  border-radius: 20px;
+}
+
+.btn-outline-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
 }
