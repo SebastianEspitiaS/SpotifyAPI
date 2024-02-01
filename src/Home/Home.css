@@ -3,7 +3,7 @@
 }
 
 .home {
-    background-color: black;
+    background-color: rgb(21, 21, 21);
     display: block;
     width: 100%;
     min-height: 100vh;
@@ -14,3 +14,86 @@
    color: #1DB954;
    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
 }
+
+.home {
+    background-color: #121212;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .title {
+    color: #1DB954;
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .subtitle {
+    color: #bdbdbd;
+    font-size: 1.2em;
+  }
+  
+  .featured-playlist,
+  .recently-played {
+    margin-top: 30px;
+  }
+  
+  h2 {
+    color: #1DB954;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  /* En tu archivo Home.css */
+
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.music-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.music-card {
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .music-info {
+    padding: 10px;
+
+    h3 {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    p {
+      margin: 5px 0;
+      font-size: 14px;
+      color: #777;
+    }
+  }
+}
+
+  
