@@ -5,7 +5,8 @@
   min-height: 100vh;
   text-align: center;
   padding: 20px;
-  background-color: #042f15;
+  /* background-color: #042f15; */
+  background: linear-gradient(to bottom, #021409, #042f15);
   color: #fff;
   padding: 20px;
 }
