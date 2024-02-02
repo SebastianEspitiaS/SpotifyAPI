@@ -59,10 +59,10 @@ export function Menu() {
               </li>
             </ul>
             <button className="btn btn-outline" type="">
-                Registrarte
+              Registrarte
             </button>
             <button className="btn btn-outline-success" type="submit">
-                Iniciar Sesión
+              Iniciar Sesión
             </button>
           </div>
         </div>

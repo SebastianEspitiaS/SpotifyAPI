@@ -30,8 +30,6 @@ export async function pedirCanciones(id) {
     console.log(error);
   }
 
-  //
-
   //https://api.spotify.com/v1/artists/2DaxqgrOhkeH0fpeiQq2f4
 }
 

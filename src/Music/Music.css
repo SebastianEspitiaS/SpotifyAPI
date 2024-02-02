@@ -1,13 +1,28 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.container-music{
-    background-color: #121212;
+.container-music {
+  background-color: #042f15;
+   /* #121212; */
 }
 
-.col{
-    margin-bottom: 2.5vw;
+.col {
+  margin-bottom: 2.5vw;
+}
+
+.title-music{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+    height: 36px;
+}
+
+.px-2{
+    margin: 0 auto;
+    width: 95%;
 }

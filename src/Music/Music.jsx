@@ -37,7 +37,7 @@ export function Music() {
               return (
                 <div key={cancion} className="col">
                   <div className="card h-100 shadow">
-                    <h3>{cancion.name}</h3>
+                    <h3 className="title-music">{cancion.name}</h3>
                     <img
                       src={cancion.album.images[0].url}
                       alt=""
@@ -47,7 +47,7 @@ export function Music() {
                       <audio
                         src={cancion.preview_url}
                         controls
-                        className="w-100 px-2"
+                        className="px-2"
                       ></audio>
                     ) : (
                       <h3>Preview no disponible</h3>
